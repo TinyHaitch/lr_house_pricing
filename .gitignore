@@ -2,10 +2,14 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+*.\
 # C extensions
 *.so
 
+
+git config --global core.excludesfile "%HP%\.gitignore_global"
+*.log
+Desktop.ini
 # virtual environments
 lrm_env/
 venv_env/
@@ -210,3 +214,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+Desktop/
+C:\Users\HP\./
